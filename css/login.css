@@ -1,0 +1,121 @@
+		.pg_header{
+            position: fixed;
+            height: 60px;
+            top: 0;
+            left: 0;
+            right: 0;
+            background-color: #000000;
+            line-height: 65px;
+        }
+        .pg_header .logo{
+            margin: 0 auto;
+            float: left;
+            width: 200px;
+            text-align: center;
+            line-height: 48px;
+            font-size: 28px;
+            color: white;
+        }
+        .pg_dl{
+            left: 400px;
+            display: inline-block;
+            padding: 0 40px;
+            color: white;
+            font-size:23px;
+        }
+        .pg_header .pg_dl:hover{
+            background-color: #2459fb;
+            cursor: pointer;
+        }
+        .left{
+            margin-top: 20px;
+            width: 400px;
+            display: inline-block;
+            float: left;
+        }
+        .pg_body{
+            margin-top: 50px;
+            font-size: 18px;
+            display: inline-block;
+            width: 200px;
+        }
+        .pg_body1{
+            margin-top: 300px;
+            font-size: 18px;
+            display: inline-block;
+            width: 200px;
+        }
+        .pg_body .menu{
+            width: 900px;
+            padding: 15px;
+            float: left;
+            font-weight: bold;
+        }
+        .pg_body1 .menu1{
+            width: 900px;
+            padding:15px;
+            padding-left: 75px;
+            float: left;
+            font-weight: bold;
+        }
+        input[type="text"]{
+            width: 250px;
+            height: 25px;
+            border-radius: 6px;
+        }
+        input[type="password"]{
+            width: 250px;
+            height: 25px;
+            border-radius: 6px;
+        }
+        input[type="button"]{
+            background-color: #000080;
+               border: none;
+            color: white;
+            padding: 12px 29px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 17px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+        input[type="submit"]{
+            background-color: #000080;
+               border: none;
+            color: white;
+            padding: 12px 29px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 17px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+        .kong{
+            margin-top: -54px;
+            margin-left: 200px;
+            float:left;
+            padding: 15px;
+        }
+        .img{
+            width: 50px;
+            height: 40px;
+        }
+        .can{
+            width: 1220px;
+            height: 40px;
+            line-height: 10px;
+            margin: 0 auto;
+            text-align: center;
+            display: inline-block;
+        }
+        .tian{
+            color: #c8021b;
+            float: right;
+            font-size: 18px;
+            margin-right: -120px;
+            margin-top: -25px;
+        }

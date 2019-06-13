@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<web-app>
+<servlet>
+  <servlet-name>regissqlServlet</servlet-name>
+  <servlet-class>myservlet.control.regis_sql_Servlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>regissqlServlet</servlet-name>
+    <url-pattern>/regissqlServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+  <servlet-name>loginsqlServlet</servlet-name>
+  <servlet-class>myservlet.control.login_sql_Servlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>loginsqlServlet</servlet-name>
+    <url-pattern>/loginsqlServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+  <servlet-name>newssqlServlet</servlet-name>
+  <servlet-class>myservlet.control.news_sql_Servlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>newssqlServlet</servlet-name>
+    <url-pattern>/newssqlServlet</url-pattern>
+</servlet-mapping>
+</web-app>
